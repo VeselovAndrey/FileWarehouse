@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>FileWarehouse.FileSystem</id>
+    <version>1.0.0.0</version>
+    <title>FileWarehouse: FileSystem</title>
+    <authors>Andrey Veselov</authors>
+    <owners>Andrey Veselov</owners>
+    <licenseUrl>https://github.com/VeselovAndrey/FileWarehouse/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/VeselovAndrey/FileWarehouse</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Implementation of File Warehouse that stores files in local file system.</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright © 2013-2015 Andrey Veselov</copyright>
+    <tags>date warehouse, file, storage</tags>
+
+    <references>
+      <group targetFramework="dnx451">
+        <reference file="FileWarehouse.FileSystem.Dnx.dll" />
+      </group>
+      <group targetFramework="dnxcore50">
+        <reference file="FileWarehouse.FileSystem.Dnx.dll" />
+      </group>
+      <group>
+        <reference file="FileWarehouse.FileSystem.dll" />
+      </group>
+    </references>
+
+    <dependencies>
+      <group targetFramework="dnx451">
+        <dependency id="FileWarehouse" version="1.0.0" />
+      </group>
+      <group targetFramework="dnxcore50">
+        <dependency id="System.Diagnostics.Contracts" version="4.0.0" />
+        <dependency id="System.IO.FileSystem" version="4.0.0" />
+        <dependency id="Microsoft.CSharp" version="4.0.0" />
+        <dependency id="FileWarehouse" version="1.0.0" />
+      </group>
+      <group>
+        <dependency id="FileWarehouse" version="1.0.0" />
+      </group>
+    </dependencies>
+
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework="dnx451" />
+      <frameworkAssembly assemblyName="System" targetFramework="dnx451" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework="dnx451" />
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework="dnx451" />
+    </frameworkAssemblies>
+
+  </metadata>
+
+  <files>
+    <file src="..\artifacts\bin\FileWarehouse.FileSystem Dnx\Release\dnx451\FileWarehouse.FileSystem.Dnx.dll" target="lib\dnx451\" />
+    <file src="..\artifacts\bin\FileWarehouse.FileSystem Dnx\Release\dnx451\FileWarehouse.FileSystem.Dnx.xml" target="lib\dnx451\" />
+    <file src="..\artifacts\bin\FileWarehouse.FileSystem Dnx\Release\dnx451\FileWarehouse.FileSystem.Dnx.pdb" target="lib\dnx451\" />
+
+    <file src="..\artifacts\bin\FileWarehouse.FileSystem Dnx\Release\dnxcore50\FileWarehouse.FileSystem.Dnx.dll" target="lib\dnxcore50\" />
+    <file src="..\artifacts\bin\FileWarehouse.FileSystem Dnx\Release\dnxcore50\FileWarehouse.FileSystem.Dnx.xml" target="lib\dnxcore50\" />
+    <file src="..\artifacts\bin\FileWarehouse.FileSystem Dnx\Release\dnxcore50\FileWarehouse.FileSystem.Dnx.pdb" target="lib\dnxcore50\" />
+
+    <file src="..\artifacts\bin\FileWarehouse.FileSystem Dnx\Release\net45\FileWarehouse.FileSystem.dll" target="lib\net45\" />
+    <file src="..\artifacts\bin\FileWarehouse.FileSystem Dnx\Release\net45\FileWarehouse.FileSystem.xml" target="lib\net45\" />
+    <file src="..\artifacts\bin\FileWarehouse.FileSystem Dnx\Release\net45\FileWarehouse.FileSystem.pdb" target="lib\net45\" />
+    <file src="..\artifacts\bin\FileWarehouse.FileSystem Dnx\Release\net45\CodeContracts\FileWarehouse.FileSystem.Contracts.dll" target="lib\net45\" />
+    <file src="..\artifacts\bin\FileWarehouse.FileSystem Dnx\Release\net45\CodeContracts\FileWarehouse.FileSystem.Contracts.pdb" target="lib\net45\" />
+  </files>
+</package>

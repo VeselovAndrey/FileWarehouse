@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0-*",
+  "description": "Implementation of File Warehouse that stores files in local file system.",
+    "repository": { 
+    "type": "git", 
+    "url": "git://github.com/VeselovAndrey/FileWarehouse" 
+  },
+  "authors": [ "Andrey Veselov" ],
+  "tags": [ "File", "Storage", "Server", "Desktop", "Local files" ],
+  "projectUrl": "https://github.com/VeselovAndrey/FileWarehouse",
+  "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0",
+
+  "dependencies": {
+    "FileWarehouse.Dnx": ""
+  },
+
+  "frameworks": {
+    "dnx451": { },
+    "dnxcore50": {
+      "dependencies": {
+        "System.Diagnostics.Contracts": "4.0.0",
+        "System.IO.FileSystem": "4.0.0",
+        "Microsoft.CSharp": "4.0.0"
+      }
+    }
+  }
+}

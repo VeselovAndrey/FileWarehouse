@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>FileWarehouse.Azure.Blob</id>
+    <version>1.0.0-preview</version>
+    <title>FileWarehouse: Azure.Blob</title>
+    <authors>Andrey Veselov</authors>
+    <owners>Andrey Veselov</owners>
+    <licenseUrl>https://github.com/VeselovAndrey/FileWarehouse/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/VeselovAndrey/FileWarehouse</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Implementation of File Warehouse that stores files in Azure Blob storage.</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright © 2013-2015 Andrey Veselov</copyright>
+    <tags>date warehouse, file, storage, azure, blob</tags>
+
+    <references>
+      <group targetFramework="dnx451">
+        <reference file="FileWarehouse.Azure.Blob.Dnx.dll" />
+      </group>
+      <group targetFramework="dnxcore50">
+        <reference file="FileWarehouse.Azure.Blob.Dnx.dll" />
+      </group>
+      <group>
+        <reference file="FileWarehouse.Azure.Blob.dll" />
+      </group>
+    </references>
+
+    <dependencies>
+      <group targetFramework="dnx451">
+        <dependency id="WindowsAzure.Storage" version="5.0.1-preview" />
+        <dependency id="FileWarehouse" version="1.0.0" />
+      </group>
+      <group targetFramework="dnxcore50">
+        <dependency id="WindowsAzure.Storage" version="5.0.1-preview" />
+        <dependency id="System.Diagnostics.Contracts" version="4.0.0" />
+        <dependency id="System.Linq" version="4.0.0" />
+        <dependency id="Microsoft.CSharp" version="4.0.0" />
+        <dependency id="FileWarehouse" version="1.0.0" />
+      </group>
+      <group>
+        <dependency id="WindowsAzure.Storage" version="5.0.0" />
+        <dependency id="FileWarehouse" version="1.0.0" />
+      </group>
+    </dependencies>
+
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework="dnx451" />
+      <frameworkAssembly assemblyName="System" targetFramework="dnx451" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework="dnx451" />
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework="dnx451" />
+    </frameworkAssemblies>
+
+  </metadata>
+
+  <files>
+    <file src="..\artifacts\bin\FileWarehouse.Azure.Blob Dnx\Release\dnx451\FileWarehouse.Azure.Blob.Dnx.dll" target="lib\dnx451\" />
+    <file src="..\artifacts\bin\FileWarehouse.Azure.Blob Dnx\Release\dnx451\FileWarehouse.Azure.Blob.Dnx.xml" target="lib\dnx451\" />
+    <file src="..\artifacts\bin\FileWarehouse.Azure.Blob Dnx\Release\dnx451\FileWarehouse.Azure.Blob.Dnx.pdb" target="lib\dnx451\" />
+
+    <file src="..\artifacts\bin\FileWarehouse.Azure.Blob Dnx\Release\dnxcore50\FileWarehouse.Azure.Blob.Dnx.dll" target="lib\dnxcore50\" />
+    <file src="..\artifacts\bin\FileWarehouse.Azure.Blob Dnx\Release\dnxcore50\FileWarehouse.Azure.Blob.Dnx.xml" target="lib\dnxcore50\" />
+    <file src="..\artifacts\bin\FileWarehouse.Azure.Blob Dnx\Release\dnxcore50\FileWarehouse.Azure.Blob.Dnx.pdb" target="lib\dnxcore50\" />
+
+    <file src="..\artifacts\bin\FileWarehouse.Azure.Blob Dnx\Release\net45\FileWarehouse.Azure.Blob.dll" target="lib\net45\" />
+    <file src="..\artifacts\bin\FileWarehouse.Azure.Blob Dnx\Release\net45\FileWarehouse.Azure.Blob.xml" target="lib\net45\" />
+    <file src="..\artifacts\bin\FileWarehouse.Azure.Blob Dnx\Release\net45\FileWarehouse.Azure.Blob.pdb" target="lib\net45\" />
+    <file src="..\artifacts\bin\FileWarehouse.Azure.Blob Dnx\Release\net45\CodeContracts\FileWarehouse.Azure.Blob.Contracts.dll" target="lib\net45\" />
+    <file src="..\artifacts\bin\FileWarehouse.Azure.Blob Dnx\Release\net45\CodeContracts\FileWarehouse.Azure.Blob.Contracts.pdb" target="lib\net45\" />
+  </files>
+</package>

@@ -1,0 +1,29 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "Implementation of File Warehouse that stores files in Azure Blob storage.",
+    "repository": { 
+    "type": "git", 
+    "url": "git://github.com/VeselovAndrey/FileWarehouse" 
+  }, 
+  "authors": [ "Andrey Veselov" ],
+  "tags": [ "Azure", "Blob", "File", "Storage" ],
+  "projectUrl": "https://github.com/VeselovAndrey/FileWarehouse",
+  "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0",
+
+  "dependencies": {
+    "WindowsAzure.Storage": "5.0.1-*",
+
+    "FileWarehouse.Dnx": ""
+  },
+
+  "frameworks": {
+    "dnx451": { },
+    "dnxcore50": {
+      "dependencies": {
+        "System.Diagnostics.Contracts": "4.0.0",
+        "System.Linq": "4.0.0",
+        "Microsoft.CSharp": "4.0.0"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+extensions: designer.cs generated.cs
+extensions: .cs 
+// -----------------------------------------------------------------------
+// <copyright file="%FileName%">
+// Copyright (c) 2013-%CurrentYear% Andrey Veselov. All rights reserved.
+// License: Apache License 2.0
+// Contacts: http://andrey.moveax.com  andrey@moveax.com
+// </copyright>
+// -----------------------------------------------------------------------
+ 
