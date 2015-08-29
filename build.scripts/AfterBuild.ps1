@@ -1,9 +1,7 @@
 param([String]$solutionDirectory="")
-$scriptDirectory = Split-Path $script:MyInvocation.MyCommand.Path
 
 # ===== Load settings
-$settingsScript = $scriptDirectory+"\CommonSettings.ps1";
-. $settingsScript -solutionDirectory $solutionDirectory
+. $($(Split-Path $script:MyInvocation.MyCommand.Path) + "\CommonSettings.ps1") -solutionDirectory $solutionDirectory
 
 # ===== Clean release folder
 if (test-path $outputPackagesDirectory) {	
