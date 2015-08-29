@@ -1,5 +1,5 @@
 ﻿{
-  "version": "1.0.0-*",
+  "version": "1.0.0-preview",
   "description": "Implementation of File Warehouse that stores files in Azure Blob storage.",
     "repository": { 
     "type": "git", 
@@ -11,7 +11,7 @@
   "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0",
 
   "dependencies": {
-    "WindowsAzure.Storage": "5.0.1-*",
+    "WindowsAzure.Storage": "5.0.1-preview",
 
     "FileWarehouse.Dnx": ""
   },

@@ -1,6 +1,8 @@
 # FileWarehouse
 FileWarehouse allows to work with file in different storages using common interface.
 
+Build status (master): [![AppVeyor](https://ci.appveyor.com/api/projects/status/o3yft0tik44i2c5r/branch/master?svg=true)](https://ci.appveyor.com/project/VeselovAndrey/filewarehouse)
+
 ## Supported storages
 
 * File system
@@ -12,14 +14,15 @@ You should use NuGet in order to install FileWarehouse to your project:
 ```
 Install-Package FileWarehouse
 ```
-This will install common interfaces. You should install storage implementation too. 
+This will install common interfaces.
 
-For windows file storage use:
-```
+You should install storage implementation too. 
+* Windows file storage:
+```PS
 Install-Package FileWarehouse.FileSystem
 ```
-For Azure Blob storage:
-```
+* Azure Blob storage:
+```PS
 Install-Package FileWarehouse.Azure.Blob
 ```
 
@@ -27,7 +30,7 @@ Install-Package FileWarehouse.Azure.Blob
 
 ### Windows
 
-```c#
+```C#
 // Connect to storage and get list of containers
 IStorage storage = new FileSystemStorage("path to folder");
 
@@ -60,7 +63,7 @@ IEnumerable<string> files = await container.GetFilesAsync("", StorageSearchOptio
 ```
 
 #### Azure
-```c#
+```C#
 // Connect to Azure storage ...
 IStorage storage = new AzureBlobStorage("<connection string>");
 

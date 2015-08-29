@@ -25,7 +25,10 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FileWarehouse.FileSystem.Dn
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B242E5EE-A31B-4418-BD07-19A242A58A37}"
 	ProjectSection(SolutionItems) = preProject
+		COPYRIGHT = COPYRIGHT
 		global.json = global.json
+		LICENSE = LICENSE
+		README.md = README.md
 	EndProjectSection
 EndProject
 Global
