@@ -51,18 +51,18 @@
   </metadata>
 
   <files>
-    <file src="..\artifacts\bin\FileWarehouse.FileSystem Dnx\Release\dnx451\FileWarehouse.FileSystem.Dnx.dll" target="lib\dnx451\" />
-    <file src="..\artifacts\bin\FileWarehouse.FileSystem Dnx\Release\dnx451\FileWarehouse.FileSystem.Dnx.xml" target="lib\dnx451\" />
-    <file src="..\artifacts\bin\FileWarehouse.FileSystem Dnx\Release\dnx451\FileWarehouse.FileSystem.Dnx.pdb" target="lib\dnx451\" />
+    <file src="..\..\artifacts\bin\FileWarehouse.FileSystem Dnx\Release\dnx451\FileWarehouse.FileSystem.Dnx.dll" target="lib\dnx451\" />
+    <file src="..\..\artifacts\bin\FileWarehouse.FileSystem Dnx\Release\dnx451\FileWarehouse.FileSystem.Dnx.xml" target="lib\dnx451\" />
+    <file src="..\..\artifacts\bin\FileWarehouse.FileSystem Dnx\Release\dnx451\FileWarehouse.FileSystem.Dnx.pdb" target="lib\dnx451\" />
 
-    <file src="..\artifacts\bin\FileWarehouse.FileSystem Dnx\Release\dnxcore50\FileWarehouse.FileSystem.Dnx.dll" target="lib\dnxcore50\" />
-    <file src="..\artifacts\bin\FileWarehouse.FileSystem Dnx\Release\dnxcore50\FileWarehouse.FileSystem.Dnx.xml" target="lib\dnxcore50\" />
-    <file src="..\artifacts\bin\FileWarehouse.FileSystem Dnx\Release\dnxcore50\FileWarehouse.FileSystem.Dnx.pdb" target="lib\dnxcore50\" />
+    <file src="..\..\artifacts\bin\FileWarehouse.FileSystem Dnx\Release\dnxcore50\FileWarehouse.FileSystem.Dnx.dll" target="lib\dnxcore50\" />
+    <file src="..\..\artifacts\bin\FileWarehouse.FileSystem Dnx\Release\dnxcore50\FileWarehouse.FileSystem.Dnx.xml" target="lib\dnxcore50\" />
+    <file src="..\..\artifacts\bin\FileWarehouse.FileSystem Dnx\Release\dnxcore50\FileWarehouse.FileSystem.Dnx.pdb" target="lib\dnxcore50\" />
 
-    <file src="..\artifacts\bin\FileWarehouse.FileSystem Dnx\Release\net45\FileWarehouse.FileSystem.dll" target="lib\net45\" />
-    <file src="..\artifacts\bin\FileWarehouse.FileSystem Dnx\Release\net45\FileWarehouse.FileSystem.xml" target="lib\net45\" />
-    <file src="..\artifacts\bin\FileWarehouse.FileSystem Dnx\Release\net45\FileWarehouse.FileSystem.pdb" target="lib\net45\" />
-    <file src="..\artifacts\bin\FileWarehouse.FileSystem Dnx\Release\net45\CodeContracts\FileWarehouse.FileSystem.Contracts.dll" target="lib\net45\" />
-    <file src="..\artifacts\bin\FileWarehouse.FileSystem Dnx\Release\net45\CodeContracts\FileWarehouse.FileSystem.Contracts.pdb" target="lib\net45\" />
+    <file src="..\..\artifacts\bin\FileWarehouse.FileSystem Dnx\Release\net45\FileWarehouse.FileSystem.dll" target="lib\net45\" />
+    <file src="..\..\artifacts\bin\FileWarehouse.FileSystem Dnx\Release\net45\FileWarehouse.FileSystem.xml" target="lib\net45\" />
+    <file src="..\..\artifacts\bin\FileWarehouse.FileSystem Dnx\Release\net45\FileWarehouse.FileSystem.pdb" target="lib\net45\" />
+    <file src="..\..\artifacts\bin\FileWarehouse.FileSystem Dnx\Release\net45\CodeContracts\FileWarehouse.FileSystem.Contracts.dll" target="lib\net45\" />
+    <file src="..\..\artifacts\bin\FileWarehouse.FileSystem Dnx\Release\net45\CodeContracts\FileWarehouse.FileSystem.Contracts.pdb" target="lib\net45\" />
   </files>
 </package>

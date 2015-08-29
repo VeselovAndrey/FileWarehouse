@@ -54,18 +54,18 @@
   </metadata>
 
   <files>
-    <file src="..\artifacts\bin\FileWarehouse.Azure.Blob Dnx\Release\dnx451\FileWarehouse.Azure.Blob.Dnx.dll" target="lib\dnx451\" />
-    <file src="..\artifacts\bin\FileWarehouse.Azure.Blob Dnx\Release\dnx451\FileWarehouse.Azure.Blob.Dnx.xml" target="lib\dnx451\" />
-    <file src="..\artifacts\bin\FileWarehouse.Azure.Blob Dnx\Release\dnx451\FileWarehouse.Azure.Blob.Dnx.pdb" target="lib\dnx451\" />
-
-    <file src="..\artifacts\bin\FileWarehouse.Azure.Blob Dnx\Release\dnxcore50\FileWarehouse.Azure.Blob.Dnx.dll" target="lib\dnxcore50\" />
-    <file src="..\artifacts\bin\FileWarehouse.Azure.Blob Dnx\Release\dnxcore50\FileWarehouse.Azure.Blob.Dnx.xml" target="lib\dnxcore50\" />
-    <file src="..\artifacts\bin\FileWarehouse.Azure.Blob Dnx\Release\dnxcore50\FileWarehouse.Azure.Blob.Dnx.pdb" target="lib\dnxcore50\" />
-
-    <file src="..\artifacts\bin\FileWarehouse.Azure.Blob Dnx\Release\net45\FileWarehouse.Azure.Blob.dll" target="lib\net45\" />
-    <file src="..\artifacts\bin\FileWarehouse.Azure.Blob Dnx\Release\net45\FileWarehouse.Azure.Blob.xml" target="lib\net45\" />
-    <file src="..\artifacts\bin\FileWarehouse.Azure.Blob Dnx\Release\net45\FileWarehouse.Azure.Blob.pdb" target="lib\net45\" />
-    <file src="..\artifacts\bin\FileWarehouse.Azure.Blob Dnx\Release\net45\CodeContracts\FileWarehouse.Azure.Blob.Contracts.dll" target="lib\net45\" />
-    <file src="..\artifacts\bin\FileWarehouse.Azure.Blob Dnx\Release\net45\CodeContracts\FileWarehouse.Azure.Blob.Contracts.pdb" target="lib\net45\" />
+    <file src="..\..\artifacts\bin\FileWarehouse.Azure.Blob Dnx\Release\dnx451\FileWarehouse.Azure.Blob.Dnx.dll" target="lib\dnx451\" />
+    <file src="..\..\artifacts\bin\FileWarehouse.Azure.Blob Dnx\Release\dnx451\FileWarehouse.Azure.Blob.Dnx.xml" target="lib\dnx451\" />
+    <file src="..\..\artifacts\bin\FileWarehouse.Azure.Blob Dnx\Release\dnx451\FileWarehouse.Azure.Blob.Dnx.pdb" target="lib\dnx451\" />
+               
+    <file src="..\..\artifacts\bin\FileWarehouse.Azure.Blob Dnx\Release\dnxcore50\FileWarehouse.Azure.Blob.Dnx.dll" target="lib\dnxcore50\" />
+    <file src="..\..\artifacts\bin\FileWarehouse.Azure.Blob Dnx\Release\dnxcore50\FileWarehouse.Azure.Blob.Dnx.xml" target="lib\dnxcore50\" />
+    <file src="..\..\artifacts\bin\FileWarehouse.Azure.Blob Dnx\Release\dnxcore50\FileWarehouse.Azure.Blob.Dnx.pdb" target="lib\dnxcore50\" />
+               
+    <file src="..\..\artifacts\bin\FileWarehouse.Azure.Blob Dnx\Release\net45\FileWarehouse.Azure.Blob.dll" target="lib\net45\" />
+    <file src="..\..\artifacts\bin\FileWarehouse.Azure.Blob Dnx\Release\net45\FileWarehouse.Azure.Blob.xml" target="lib\net45\" />
+    <file src="..\..\artifacts\bin\FileWarehouse.Azure.Blob Dnx\Release\net45\FileWarehouse.Azure.Blob.pdb" target="lib\net45\" />
+    <file src="..\..\artifacts\bin\FileWarehouse.Azure.Blob Dnx\Release\net45\CodeContracts\FileWarehouse.Azure.Blob.Contracts.dll" target="lib\net45\" />
+    <file src="..\..\artifacts\bin\FileWarehouse.Azure.Blob Dnx\Release\net45\CodeContracts\FileWarehouse.Azure.Blob.Contracts.pdb" target="lib\net45\" />
   </files>
 </package>

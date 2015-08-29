@@ -45,18 +45,18 @@
   </metadata>
 
   <files>
-    <file src="..\artifacts\bin\FileWarehouse Dnx\Release\dnx451\FileWarehouse.Dnx.dll" target="lib\dnx451\" />
-    <file src="..\artifacts\bin\FileWarehouse Dnx\Release\dnx451\FileWarehouse.Dnx.xml" target="lib\dnx451\" />
-    <file src="..\artifacts\bin\FileWarehouse Dnx\Release\dnx451\FileWarehouse.Dnx.pdb" target="lib\dnx451\" />
+    <file src="..\..\artifacts\bin\FileWarehouse Dnx\Release\dnx451\FileWarehouse.Dnx.dll" target="lib\dnx451\" />
+    <file src="..\..\artifacts\bin\FileWarehouse Dnx\Release\dnx451\FileWarehouse.Dnx.xml" target="lib\dnx451\" />
+    <file src="..\..\artifacts\bin\FileWarehouse Dnx\Release\dnx451\FileWarehouse.Dnx.pdb" target="lib\dnx451\" />
 
-    <file src="..\artifacts\bin\FileWarehouse Dnx\Release\dnxcore50\FileWarehouse.Dnx.dll" target="lib\dnxcore50\" />
-    <file src="..\artifacts\bin\FileWarehouse Dnx\Release\dnxcore50\FileWarehouse.Dnx.xml" target="lib\dnxcore50\" />
-    <file src="..\artifacts\bin\FileWarehouse Dnx\Release\dnxcore50\FileWarehouse.Dnx.pdb" target="lib\dnxcore50\" />
+    <file src="..\..\artifacts\bin\FileWarehouse Dnx\Release\dnxcore50\FileWarehouse.Dnx.dll" target="lib\dnxcore50\" />
+    <file src="..\..\artifacts\bin\FileWarehouse Dnx\Release\dnxcore50\FileWarehouse.Dnx.xml" target="lib\dnxcore50\" />
+    <file src="..\..\artifacts\bin\FileWarehouse Dnx\Release\dnxcore50\FileWarehouse.Dnx.pdb" target="lib\dnxcore50\" />
 
-    <file src="..\artifacts\bin\FileWarehouse Dnx\Release\portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\FileWarehouse.dll" target="lib\portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\" />
-    <file src="..\artifacts\bin\FileWarehouse Dnx\Release\portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\FileWarehouse.xml" target="lib\portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\" />
-    <file src="..\artifacts\bin\FileWarehouse Dnx\Release\portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\FileWarehouse.pdb" target="lib\portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\" />
-    <file src="..\artifacts\bin\FileWarehouse Dnx\Release\portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\CodeContracts\FileWarehouse.Contracts.dll" target="lib\portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\" />
-    <file src="..\artifacts\bin\FileWarehouse Dnx\Release\portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\CodeContracts\FileWarehouse.Contracts.pdb" target="lib\portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\" />
+    <file src="..\..\artifacts\bin\FileWarehouse Dnx\Release\portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\FileWarehouse.dll" target="lib\portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\" />
+    <file src="..\..\artifacts\bin\FileWarehouse Dnx\Release\portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\FileWarehouse.xml" target="lib\portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\" />
+    <file src="..\..\artifacts\bin\FileWarehouse Dnx\Release\portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\FileWarehouse.pdb" target="lib\portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\" />
+    <file src="..\..\artifacts\bin\FileWarehouse Dnx\Release\portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\CodeContracts\FileWarehouse.Contracts.dll" target="lib\portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\" />
+    <file src="..\..\artifacts\bin\FileWarehouse Dnx\Release\portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\CodeContracts\FileWarehouse.Contracts.pdb" target="lib\portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\" />
   </files>
 </package>
