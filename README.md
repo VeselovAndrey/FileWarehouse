@@ -1,7 +1,9 @@
 # FileWarehouse
 FileWarehouse allows to work with file in different storages using common interface.
 
-Build status (master): [![AppVeyor](https://ci.appveyor.com/api/projects/status/o3yft0tik44i2c5r/branch/master?svg=true)](https://ci.appveyor.com/project/VeselovAndrey/filewarehouse)
+Build status 
+* master: [![AppVeyor](https://ci.appveyor.com/api/projects/status/o3yft0tik44i2c5r/branch/master?svg=true)](https://ci.appveyor.com/project/VeselovAndrey/filewarehouse)
+* develop: [![AppVeyor](https://ci.appveyor.com/api/projects/status/o3yft0tik44i2c5r/branch/develop?svg=true)](https://ci.appveyor.com/project/VeselovAndrey/filewarehouse)
 
 ## Supported storages
 
