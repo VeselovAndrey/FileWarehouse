@@ -10,7 +10,7 @@ if (test-path $outputPackagesDirectory) {
 New-Item $outputPackagesDirectory -Type Directory *>$null
 
 # ====== Build NuGet packages
-$allNugetFiles = Get-ChildItem $nugetDirectory -Recurse
+$allNugetFiles = Get-ChildItem $nuspecDirectory -Recurse
 $nuspecFiles = $allNugetFiles | where {$_.Name.EndsWith(".nuspec") }
 
 foreach ($nuspecFile in $nuspecFiles) {

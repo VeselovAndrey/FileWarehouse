@@ -5,11 +5,11 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileWarehouse", "src\FileWarehouse\FileWarehouse.csproj", "{EF0BEF06-73A1-44DD-A0E9-75A32CA75890}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{CCCA102D-03D3-435D-925E-A93699F222EB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CCCA102D-03D3-435D-925E-A93699F222EB}"
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FileWarehouse Dnx", "src\FileWarehouse.Dnx\FileWarehouse Dnx.xproj", "{5A37E9D0-7110-4B77-BDB4-12246F4D9DBA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B8885CC4-FECC-438A-AAD6-4C41DDBC9DBE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B8885CC4-FECC-438A-AAD6-4C41DDBC9DBE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileWarehouse.Azure.Blob", "src\FileWarehouse.Azure.Blob\FileWarehouse.Azure.Blob.csproj", "{42DB0006-BA81-4A81-93B7-84E954046A12}"
 EndProject
@@ -29,6 +29,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		global.json = global.json
 		LICENSE = LICENSE
 		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuspecs", "nuspecs", "{92834023-67E4-49B9-8330-763077089993}"
+	ProjectSection(SolutionItems) = preProject
+		build.scripts\nuget\FileWarehouse.Azure.Blob.nuspec = build.scripts\nuget\FileWarehouse.Azure.Blob.nuspec
+		build.scripts\nuget\FileWarehouse.FileSystem.nuspec = build.scripts\nuget\FileWarehouse.FileSystem.nuspec
+		build.scripts\nuget\FileWarehouse.nuspec = build.scripts\nuget\FileWarehouse.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build Scripts", "Build Scripts", "{E227FA2C-44EB-4AD4-AB18-2ADB36BC61A4}"
+	ProjectSection(SolutionItems) = preProject
+		build.scripts\AfterBuild.ps1 = build.scripts\AfterBuild.ps1
+		build.scripts\BeforeBuild.ps1 = build.scripts\BeforeBuild.ps1
+		build.scripts\CommonSettings.ps1 = build.scripts\CommonSettings.ps1
+		build.scripts\ExecuteTests.AppVeyor.ps1 = build.scripts\ExecuteTests.AppVeyor.ps1
+		build.scripts\InstallEnvironment.ps1 = build.scripts\InstallEnvironment.ps1
 	EndProjectSection
 EndProject
 Global
@@ -82,5 +98,7 @@ Global
 		{70CD1CDE-0608-413E-9F91-6A056763155C} = {CCCA102D-03D3-435D-925E-A93699F222EB}
 		{EEE2CAD7-3887-48AB-9439-D17AC171CFD6} = {B8885CC4-FECC-438A-AAD6-4C41DDBC9DBE}
 		{B68681E7-EDBE-42C1-89BE-CD79BC26B496} = {B8885CC4-FECC-438A-AAD6-4C41DDBC9DBE}
+		{92834023-67E4-49B9-8330-763077089993} = {B242E5EE-A31B-4418-BD07-19A242A58A37}
+		{E227FA2C-44EB-4AD4-AB18-2ADB36BC61A4} = {B242E5EE-A31B-4418-BD07-19A242A58A37}
 	EndGlobalSection
 EndGlobal

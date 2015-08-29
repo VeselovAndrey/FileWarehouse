@@ -8,6 +8,6 @@ if ([string]::IsNullOrEmpty($solutionDirectory)) {
 # ===== Directories
 $artifactsBinDirectory = $solutionDirectory + "\artifacts\bin"
 $packagesDirectory = $solutionDirectory + "\packages"
-$nugetDirectory = $solutionDirectory + "\build.nuget"
-$nugetExecutable = $nugetDirectory + "\nuget"
-$outputPackagesDirectory = $nugetDirectory + "\release"
+$nuspecDirectory = $solutionDirectory + "\build.scripts\nuget"
+$nugetExecutable = $nuspecDirectory + "\nuget"
+$outputPackagesDirectory = $nuspecDirectory + "\release"
