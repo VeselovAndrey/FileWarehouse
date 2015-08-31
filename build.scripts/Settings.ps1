@@ -11,3 +11,16 @@ $packagesDirectory = $solutionDirectory + "\packages"
 $nuspecDirectory = $solutionDirectory + "\build.scripts\nuget"
 $nugetExecutable = $nuspecDirectory + "\nuget"
 $outputPackagesDirectory = $nuspecDirectory + "\release"
+
+$netProjects = @(
+	"\src\FileWarehouse",
+	"\src\FileWarehouse.Azure.Blob",
+	"\src\FileWarehouse.FileSystem"
+)
+
+$dnxTests = @(
+	"FileWarehouse.Azure.Blob.Dnx.Tests",
+	"FileWarehouse.FileSystem.Dnx.Tests"
+)
+
+$consoleTests = @()

@@ -1,4 +1,3 @@
-# Prebuild script for AppVeyor
 param([String]$solutionDirectory="")
 
 # bootstrap DNVM into this session.
