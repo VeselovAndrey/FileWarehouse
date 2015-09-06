@@ -15,7 +15,7 @@ namespace FileWarehouse.FileSystem
     using System.Linq;
     using System.Threading.Tasks;
 
-    public class FileSystemStorageContainer : IStorageContainer
+    internal class FileSystemStorageContainer : IStorageContainer
     {
         private readonly string _urlBase;
         private readonly string _containerRoot;
