@@ -16,7 +16,7 @@ namespace FileWarehouse.Azure.Blob
     using Microsoft.WindowsAzure.Storage.Blob;
     using System.Diagnostics.Contracts;
 
-    public class AzureBlobStorageContainer : IStorageContainer
+    internal class AzureBlobStorageContainer : IStorageContainer
     {
         private readonly CloudBlobContainer _blobContainer;
 
