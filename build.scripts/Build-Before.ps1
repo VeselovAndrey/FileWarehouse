@@ -5,7 +5,13 @@ param([String]$solutionDirectory="")
 
 # ===== Restore packages
 foreach ($prj in $netProjects) {
-	cd $($solutionDirectory + $prj)
+	$projectDirectory = $solutionDirectory + $prj
+	$("=====> Restoring packages for " + $projectDirectory)
 
-	&$nugetExecutable restore -PackagesDirectory $packagesDirectory
+	$projectPackageConfig = $projectDirectory + "\packages.config"
+	if (Test-Path $projectPackageConfig)
+	{
+		cd $projectDirectory
+		&$nugetExecutable restore -PackagesDirectory $packagesDirectory
+	}
 }
