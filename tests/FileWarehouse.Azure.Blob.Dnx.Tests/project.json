@@ -11,8 +11,8 @@
   "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0",
 
   "dependencies": {
-    "xunit": "2.1.0-beta4-build3109",
-    "xunit.runner.dnx": "2.1.0-beta4-build134",
+    "xunit": "2.1.0",
+    "xunit.runner.dnx": "2.1.0-beta6-build191",
 
     "FileWarehouse.Azure.Blob.Dnx": "" 
   },

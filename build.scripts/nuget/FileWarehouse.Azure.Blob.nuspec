@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>FileWarehouse.Azure.Blob</id>
-    <version>1.0.0-preview</version>
+    <version>1.0.1-preview</version>
     <title>FileWarehouse: Azure.Blob</title>
     <authors>Andrey Veselov</authors>
     <owners>Andrey Veselov</owners>
@@ -28,18 +28,18 @@
 
     <dependencies>
       <group targetFramework="dnx451">
-        <dependency id="WindowsAzure.Storage" version="5.0.1-preview" />
+        <dependency id="WindowsAzure.Storage" version="6.0.1-preview" />
         <dependency id="FileWarehouse" version="1.0.0" />
       </group>
       <group targetFramework="dnxcore50">
-        <dependency id="WindowsAzure.Storage" version="5.0.1-preview" />
+        <dependency id="WindowsAzure.Storage" version="6.0.1-preview" />
         <dependency id="System.Diagnostics.Contracts" version="4.0.0" />
         <dependency id="System.Linq" version="4.0.0" />
         <dependency id="Microsoft.CSharp" version="4.0.0" />
         <dependency id="FileWarehouse" version="1.0.0" />
       </group>
       <group>
-        <dependency id="WindowsAzure.Storage" version="5.0.0" />
+        <dependency id="WindowsAzure.Storage" version="6.0.0" />
         <dependency id="FileWarehouse" version="1.0.0" />
       </group>
     </dependencies>
