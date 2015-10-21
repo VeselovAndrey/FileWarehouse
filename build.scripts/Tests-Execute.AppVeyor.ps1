@@ -14,7 +14,7 @@ foreach ($prj in $dnxTests) {
 	$dnxTestReportXml = $prj + ".xml"
 
 	cd $($solutionDirectory + "\tests\" + $prj)
-	dnx . test -appveyor -xml $dnxTestReportXml
+	dnx test -appveyor -xml $dnxTestReportXml
 
 	$errCode = $LASTEXITCODE
 	if (($failCode -eq 0) -and ($errCode -ne 0)) { $failCode = $errCode }
