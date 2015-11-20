@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>FileWarehouse.FileSystem</id>
-    <version>1.0.0.0</version>
+    <version>1.0.0.1</version>
     <title>FileWarehouse: FileSystem</title>
     <authors>Andrey Veselov</authors>
     <owners>Andrey Veselov</owners>

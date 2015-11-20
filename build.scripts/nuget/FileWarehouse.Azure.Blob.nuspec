@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>FileWarehouse.Azure.Blob</id>
-    <version>1.0.1-preview</version>
+    <version>1.0.1-preview1</version>
     <title>FileWarehouse: Azure.Blob</title>
     <authors>Andrey Veselov</authors>
     <owners>Andrey Veselov</owners>
