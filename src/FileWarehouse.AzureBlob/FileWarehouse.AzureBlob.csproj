@@ -5,11 +5,11 @@
     <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7F856C4D-6ED4-498E-AC4B-277A51C06728}</ProjectGuid>
+    <ProjectGuid>{B6DBCD77-ECF1-42CC-A8D2-0D49B42A44D9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FileWarehouse.FileSystem</RootNamespace>
-    <AssemblyName>FileWarehouse.FileSystem</AssemblyName>
+    <RootNamespace>FileWarehouse.AzureBlob</RootNamespace>
+    <AssemblyName>FileWarehouse.AzureBlob</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -36,18 +36,18 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
-    <None Include="project.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="FileSystemStorage.cs" />
-    <Compile Include="FileSystemStorageContainer.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\FileWarehouse\FileWarehouse.csproj">
       <Project>{05d0a7c1-c70c-401a-bbe6-4fe890466042}</Project>
       <Name>FileWarehouse</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AzureBlobStorage.cs" />
+    <Compile Include="AzureBlobStorageContainer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="project.json" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

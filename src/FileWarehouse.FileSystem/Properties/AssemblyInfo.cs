@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿using System.Resources;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
@@ -6,21 +7,14 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("FileWarehouse.FileSystem")]
-[assembly: AssemblyDescription("Implementation of File Warehouse that stores files in local file system.")]
+[assembly: AssemblyDescription("Implementation of FileWarehouse for storing files in local file system.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Andrey Veselov")]
 [assembly: AssemblyProduct("FileWarehouse")]
-[assembly: AssemblyCopyright("Copyright © 2013-2015 Andrey Veselov")]
+[assembly: AssemblyCopyright("Copyright © 2013-2016 Andrey Veselov")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
-
-// Setting ComVisible to false makes the types in this assembly not visible 
-// to COM components.  If you need to access a type in this assembly from 
-// COM, set the ComVisible attribute to true on that type.
-[assembly: ComVisible(false)]
-
-// The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("0e0150fe-ac20-4917-8fce-6518c0c8c396")]
+[assembly: NeutralResourcesLanguage("en")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -32,5 +26,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.1")]
-[assembly: AssemblyFileVersion("1.0.0.1")]
+[assembly: AssemblyVersion("1.1.0.0")]
+[assembly: AssemblyFileVersion("1.1.0.0")]

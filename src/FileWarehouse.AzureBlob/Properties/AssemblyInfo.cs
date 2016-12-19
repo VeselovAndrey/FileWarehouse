@@ -6,8 +6,8 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("FileWarehouse")]
-[assembly: AssemblyDescription("FileWarehouse interfaces for file storages.")]
+[assembly: AssemblyTitle("FileWarehouse.AzureBlob")]
+[assembly: AssemblyDescription("FileWarehouse implementation for storing files in Azure Blobs.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Andrey Veselov")]
 [assembly: AssemblyProduct("FileWarehouse")]
