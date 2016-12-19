@@ -12,7 +12,7 @@ Build status:
 
 ## Latest releases ##
 [![NuGet - FileWarehouse](https://img.shields.io/nuget/v/FileWarehouse.svg?label=FileWarehouse&style=flat-square)](https://www.nuget.org/packages/FileWarehouse/)
-[![NuGet - FileWarehouse.Azure.Blob](https://img.shields.io/nuget/v/FileWarehouse.Azure.Blob.svg?label=FileWarehouse.Azure.Blob&style=flat-square)](https://www.nuget.org/packages/FileWarehouse.Azure.Blob/)
+[![NuGet - FileWarehouse.AzureBlob](https://img.shields.io/nuget/v/FileWarehouse.AzureBlob.svg?label=FileWarehouse.AzureBlob&style=flat-square)](https://www.nuget.org/packages/FileWarehouse.AzureBlob/)
 [![NuGet - FileWarehouse.FileSystem](https://img.shields.io/nuget/v/FileWarehouse.FileSystem.svg?label=FileWarehouse.FileSystem&style=flat-square)](https://www.nuget.org/packages/FileWarehouse.FileSystem/)
 
 ## Installation
