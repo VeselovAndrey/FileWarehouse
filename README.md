@@ -10,10 +10,17 @@ Build status:
 * File system
 * Azure Blob storage
 
-## Latest releases ##
+## Stable releases ##
 [![NuGet - FileWarehouse](https://img.shields.io/nuget/v/FileWarehouse.svg?label=FileWarehouse&style=flat-square)](https://www.nuget.org/packages/FileWarehouse/)
 [![NuGet - FileWarehouse.AzureBlob](https://img.shields.io/nuget/v/FileWarehouse.AzureBlob.svg?label=FileWarehouse.AzureBlob&style=flat-square)](https://www.nuget.org/packages/FileWarehouse.AzureBlob/)
 [![NuGet - FileWarehouse.FileSystem](https://img.shields.io/nuget/v/FileWarehouse.FileSystem.svg?label=FileWarehouse.FileSystem&style=flat-square)](https://www.nuget.org/packages/FileWarehouse.FileSystem/)
+
+## Latest releases ##
+
+[![MyGet - FileWarehouse](https://img.shields.io/myget/filewarehouse/vpre/FileWarehouse.svg?label=FileWarehouse&style=flat-square)](https://www.myget.org/packages/FileWarehouse/)
+[![MyGet - FileWarehouse.AzureBlob](https://img.shields.io/myget/filewarehouse/vpre/FileWarehouse.AzureBlob.svg?label=FileWarehouse.AzureBlob&style=flat-square)](https://www.myget.org/packages/FileWarehouse.AzureBlob/)
+[![MyGet - FileWarehouse.FileSystem](https://img.shields.io/myget/filewarehouse/vpre/FileWarehouse.FileSystem.svg?label=FileWarehouse.FileSystem&style=flat-square)](https://www.myget.org/packages/FileWarehouse.FileSystem/)
+
 
 ## Installation
 
