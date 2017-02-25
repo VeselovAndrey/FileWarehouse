@@ -1,5 +1,5 @@
 # FileWarehouse
-FileWarehouse allows to work with file in different storages using common interface.
+FileWarehouse allows you to work with files in different storages using common interface.
 
 Build status: 
 [![AppVeyor](https://ci.appveyor.com/api/projects/status/bbwsyoqaiy9gom22/branch/master?svg=true&passingText=branch:%20master%20-%20OK&failingText=branch:%20master%20-%20Failed&pendingText=branch:%20master%20-%20In%20progress)](https://ci.appveyor.com/project/VeselovAndrey/filewarehouse/branch/master)
@@ -17,20 +17,19 @@ Build status:
 
 ## Installation
 
-You should use NuGet in order to install FileWarehouse to your project:
+Use NuGet to install FileWarehouse common interfaces library to your project:
 ```
 Install-Package FileWarehouse
 ```
-This will install common interfaces.
 
-You should install storage implementation too. 
+The next step is to install required storage implementation. 
 * Windows file storage:
 ```PS
 Install-Package FileWarehouse.FileSystem
 ```
 * Azure Blob storage:
 ```PS
-Install-Package FileWarehouse.Azure.Blob
+Install-Package FileWarehouse.AzureBlob
 ```
 
 ## Examples

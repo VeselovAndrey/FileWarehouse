@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>    
+    <TargetFramework>netcoreapp1.0</TargetFramework>    
+    <Description>Integration tests for the FIle System implementaton of FileWarehouse</Description>    
+    <Authors>Andrey Veselov</Authors>    
+    <Company />    
+    <Version>1.2.0</Version>    
+    <Copyright>Copyright © 2013-2017 Andrey Veselov</Copyright>    
+    <PackageLicenseUrl>https://github.com/VeselovAndrey/FileWarehouse/blob/master/LICENSE</PackageLicenseUrl>    
+    <PackageProjectUrl>https://github.com/VeselovAndrey/FileWarehouse</PackageProjectUrl>    
+    <RepositoryUrl>https://github.com/VeselovAndrey/FileWarehouse</RepositoryUrl>    
+    <Product>FileWarehouse</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.0.0" />
+    <PackageReference Include="xunit" Version="2.2.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FileWarehouse.FileSystem\FileWarehouse.FileSystem.csproj" />
+    <ProjectReference Include="..\FileWarehouse\FileWarehouse.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LocalStorage\Container1\Folder1\TestFile2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="LocalStorage\Container1\TestFile1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{82a7f48d-3b50-4b1e-b82e-3ada8210c358}" />
+  </ItemGroup>
+
+</Project>

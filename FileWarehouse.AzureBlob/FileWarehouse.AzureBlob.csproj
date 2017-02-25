@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.3</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Description>FileWarehouse allows you to work with files in different storages using common interface. This is Azure Blob implementation package.</Description>
+    <Product>FileWarehouse</Product>
+    <Company />
+    <Authors>Andrey Veselov</Authors>
+    <Version>1.2.0</Version>
+    <PackageProjectUrl>https://github.com/VeselovAndrey/FileWarehouse</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/VeselovAndrey/FileWarehouse</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/VeselovAndrey/FileWarehouse/blob/master/LICENSE</PackageLicenseUrl>
+    <Copyright>Copyright © 2013-2017 Andrey Veselov</Copyright>
+    <PackageTags>file access, azure, blob</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="system.Diagnostics.Contracts" Version="4.3.0" />
+    <PackageReference Include="WindowsAzure.Storage" Version="8.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FileWarehouse\FileWarehouse.csproj" />
+  </ItemGroup>
+
+</Project>
